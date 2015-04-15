@@ -18,10 +18,11 @@ def output_map(loc_pairs, output_image_file)
 	map_height = map_base.height
 
 	pin = MiniMagick::Image.new("./images/blue-mark.png")
+	pin.resize "#{PIN_SCALE}x#{PIN_SCALE}"
+
 	pin_width = pin.width
 	pin_height = pin.height
 
-	pin.resize "#{PIN_SCALE}x#{PIN_SCALE}"
 
 	result = map_base
 
