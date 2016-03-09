@@ -2,4 +2,6 @@
 !/templates/mainland-us-mercator-smaller-green.png
 /images/*.psd
 /inputs/*
+!/inputs/.gitkeep
 /outputs/*
+!/outputs/.gitkeep
