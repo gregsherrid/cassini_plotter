@@ -1,4 +1,5 @@
 /templates/*
 !/templates/mainland-us-mercator-smaller-green.png
+/images/*.psd
 /inputs/*
 /outputs/*
