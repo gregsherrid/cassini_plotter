@@ -39,6 +39,7 @@ class Plotter
 		radius = @max_circle_radius * size
 
 		# Correctly size circle
+		radius = 0.5 if radius < 0.5
 		@circle.resize "#{ radius * 2 }x#{ radius * 2 }"
 
 		x = scaled_longitude(location[1], @map_width) - radius
